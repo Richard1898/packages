@@ -24,7 +24,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 # izveido bota pieslēgumu Telegram
-app = ApplicationBuilder().token("YOUR_TOKEN").build()
+app = ApplicationBuilder().token("6431813055:AAGV5lFt3eozWp1PXDna9MsLuyTcT9M01xs").build()
 
 # komanda /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
